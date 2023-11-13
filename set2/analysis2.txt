@@ -1,0 +1,172 @@
+### Electric Vehicle Market Analysis Report - India, 2023
+
+#### Introduction
+This report presents a detailed analysis of the electric vehicle (EV) market in India for the year 2023. The dataset includes various attributes of electric vehicles such as price, battery capacity, driving range, power, charging time, transmission, boot space, and top speed.
+
+#### Data Preparation and Cleaning
+The dataset was first standardized by cleaning and transforming the data. Key steps included:
+
+1. **Price Standardization**: Prices, initially in a mix of 'lakh' and 'crore' and sometimes as ranges, were standardized to a single format in lakhs.
+
+2. **Numeric Conversion**: Non-numeric columns like 'Drive_range', 'Power', 'Charge_time', and 'Boot_space' were cleaned and converted to numeric formats for better analysis.
+
+#### Market Segmentation
+The analysis began with segmenting the EV market based on price ranges:
+
+1. **Low Price Segment**: Below 10 lakhs
+2. **Medium Price Segment**: 10 to 20 lakhs
+3. **High Price Segment**: Above 20 lakhs
+
+#### Analytical Insights
+Several analyses were conducted to explore the characteristics of each market segment:
+
+1. **Battery Capacity and Driving Range**: Vehicles in the high price segment generally had higher battery capacities and longer driving ranges.
+
+2. **Power and Charging Time**: Higher-priced EVs also tended to offer more power, although charging time did not show a clear trend with price.
+
+3. **Boot Space**: There was a trend where more expensive EVs offered more boot space, indicating a possible focus on luxury or practicality in higher segments.
+
+#### Visualization Insights
+Key visualizations provided further insights:
+
+1. **Price Range Distribution**: Showed an even distribution across low, medium, and high price segments.
+
+2. **Battery Capacity vs. Drive Range**: Indicated a positive correlation, with higher battery capacities leading to longer driving ranges.
+
+3. **Power Output in Price Segments**: Revealed that higher-priced segments typically offer higher power output.
+
+4. **Charge Time Distribution**: Illustrated that longer charging times are not necessarily associated with higher-priced models.
+
+5. **Boot Space Comparison**: Suggested that higher-priced vehicles tend to offer more storage space.
+
+6. **Top Speed vs. Price**: Higher-priced vehicles generally had higher top speeds.
+
+#### Correlation Analysis
+A correlation heatmap highlighted relationships between different EV attributes:
+
+1. **Strong Positive Correlation**: Between battery capacity and driving range, and between power and top speed.
+
+2. **Moderate Positive Correlation**: Between boot space and price, and power and price.
+
+3. **Low Correlation**: Between boot space and battery capacity, indicating that larger batteries do not necessarily reduce boot space.
+
+#### Recommendations and Strategic Insights
+Based on the analysis, the following recommendations and insights are offered:
+
+1. **Diverse Market Opportunity**: With an even distribution across price segments, there are opportunities in all market tiers - low, medium, and high.
+
+2. **Focus on Efficiency**: For manufacturers, focusing on efficient use of battery capacity to maximize range can be a key selling point.
+
+3. **Balancing Power and Price**: High power output is associated with higher prices, but a balance is essential to cater to mid-range segments without compromising too much on performance.
+
+4. **Charging Infrastructure and Time**: As charging time did not correlate strongly with other features, efforts to reduce charging time could be a universal selling point across all segments.
+
+5. **Luxury Features in High-End Models**: The correlation between higher price and more boot space suggests that customers in this segment value additional luxury and practicality features.
+
+#### Conclusion
+The Indian EV market in 2023 presents a diverse range of vehicles catering to different needs and price points. Manufacturers and stakeholders can leverage these insights for targeted strategies and product development. The balance between battery efficiency, power, and luxury features, along with improvements in charging technology, can drive the future growth of the EV market in India.
+
+
+
+
+
+
+
+
+
+
+
+Based on the provided clustering results, we have three distinct clusters in the electric vehicle market in India, each characterized by unique features related to price, driving range, power, charging time, boot space, top speed, and a factor represented as 'Ps_encoded'. Let's delve into a detailed analysis of each cluster:
+
+### Cluster 0: The Affordable Daily-Use Segment
+- **Average Price**: ₹7.71 Lakhs
+- **Drive Range**: 357.56 km
+- **Power**: 125.94 Bhp
+- **Charge Time**: Approximately 5.89 hours
+- **Boot Space**: 382.44 Liters
+- **Top Speed**: 172.63 km/h
+- **Ps_encoded**: 1.375
+
+**Insights**:
+- **Affordability and Practicality**: This cluster represents the most affordable segment, with a focus on practicality. These vehicles are likely to be popular among cost-conscious buyers.
+- **Moderate Drive Range**: The driving range is moderate, suitable for daily commuting and short trips.
+- **Power and Performance**: The power is on the lower side, indicating these vehicles are more functional than performance-oriented.
+- **Boot Space**: Adequate boot space suggests these vehicles are practical for everyday use.
+- **Top Speed**: The top speed is reasonable, aligning with the segment's focus on practicality and efficiency.
+- **Ps_encoded Factor**: A higher value might indicate a feature or aspect not directly measured but significant in this segment, possibly related to additional functionalities or features.
+
+### Cluster 1: The Mid-Range Segment
+- **Average Price**: ₹51.10 Lakhs
+- **Drive Range**: 395.22 km
+- **Power**: 172.80 Bhp
+- **Charge Time**: Approximately 7.41 hours
+- **Boot Space**: 363.78 Liters
+- **Top Speed**: 168.33 km/h
+- **Ps_encoded**: 0.00
+
+**Insights**:
+- **Premium Pricing with Balanced Features**: This segment includes vehicles that are priced significantly higher, offering a balance of features.
+- **Slightly Higher Drive Range and Power**: The increased driving range and power make these vehicles suitable for longer trips and those seeking a blend of performance and efficiency.
+- **Longer Charging Time**: The longer charging time could indicate larger battery capacities or less focus on fast-charging technology.
+- **Boot Space and Top Speed**: Slightly lesser boot space and top speed compared to Cluster 0, possibly suggesting a focus on other luxury or performance features.
+- **Ps_encoded Factor**: A zero value might signify standard features without additional unique aspects, focusing on core EV functionalities.
+
+### Cluster 2: The High-End, Performance-Oriented Segment
+- **Average Price**: ₹32.57 Lakhs
+- **Drive Range**: 690.60 km
+- **Power**: 408.16 Bhp
+- **Charge Time**: Approximately 0.83 hours
+- **Boot Space**: 540.80 Liters
+- **Top Speed**: 203.40 km/h
+- **Ps_encoded**: 0.40
+
+**Insights**:
+- **Luxury and Performance**: This segment likely represents luxury and high-performance vehicles with higher pricing.
+- **Exceptional Drive Range and Power**: The longest drive range and highest power in this segment cater to performance enthusiasts and long-distance travelers.
+- **Rapid Charging Capability**: The shortest charging time suggests advanced fast-charging technology, adding convenience.
+- **Spacious Boot and High Speed**: The largest boot space and highest top speed align with the luxury and performance focus of these vehicles.
+- **Ps_encoded Factor**: The value indicates some unique characteristics, possibly related to advanced technology or premium features not common in the other segments.
+
+### Conclusion
+The clustering analysis reveals distinct market segments within the Indian electric vehicle industry, ranging from budget-friendly and practical options to luxury and performance-oriented models. Understanding these segments can guide manufacturers and marketers in tailoring their products and strategies to meet the specific needs and preferences of different consumer groups.
+
+
+
+
+
+Plot Analysis of Power vs. Charge Time
+Observations:
+
+Cluster 0 (Dark Blue Dots): Vehicles in this cluster generally have lower power (Bhp) and longer charge times (hours). This could indicate entry-level or economy models that prioritize cost over performance and convenience.
+Cluster 1 (Green Dots): This cluster contains vehicles with moderate power and a wide range of charge times. It might represent mid-tier vehicles that offer a balance between affordability and features.
+Cluster 2 (Yellow Dots): The vehicles in this cluster have the highest power and the shortest charge times, indicating high-performance models with advanced charging technology. This cluster likely represents the premium segment of the market.
+Insights:
+
+Vehicles with higher power are generally equipped with fast-charging capabilities. This reflects a trend where performance-oriented models also emphasize quick charge times as a selling point.
+The spread of the data points suggests that there is no direct correlation between power and charge time across the market as a whole. However, within the high-performance segment (Cluster 2), a faster charge time is a common feature.
+Plot Analysis of Average Price vs. Drive Range
+Observations:
+
+Cluster 0 (Dark Blue Dots): This cluster groups the least expensive vehicles, which also have the shortest drive range. These could be considered practical, everyday vehicles for average consumers.
+Cluster 1 (Green Dots): Vehicles here span a range of average prices but have moderate to high drive ranges. This cluster may represent a variety of models, including some designed for extended range.
+Cluster 2 (Yellow Dots): Featuring the most expensive vehicles, this cluster also has the longest drive ranges. This indicates premium models that combine luxury with the capability for long-distance travel.
+Insights:
+
+There is a clear trend where higher-priced vehicles offer greater drive ranges. This suggests that consumers willing to pay more can expect to receive added value in terms of travel distance per charge.
+The premium market segment (Cluster 2) distinguishes itself not just through a higher price point but also through significantly increased drive ranges
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
